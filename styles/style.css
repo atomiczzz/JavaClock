@@ -1,3 +1,7 @@
+*{
+  border-sizing:border-box;
+  font-size:0;
+}
 #overlayBg{
 
 }
@@ -7,11 +11,21 @@ background:#9C7A97;
 }
 
 #clock{
-font-size: 30px;
+font-size: 100px;
 text-align:center;
-max-width: 100%;
+
+}
+
+#clock:hover{
+
 }
 
 #hexTime{
+opacity:.0;
+font-size: 100px;
+text-align:center;
+}
 
+#hexTime:hover{
+opacity:1;
 }
